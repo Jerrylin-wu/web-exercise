@@ -1,0 +1,124 @@
+.makednavbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: aliceblue;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+
+  .zoomImage{
+    width:100%;
+    height:0;
+    padding-bottom: 40%;
+    overflow:hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
+#flower {
+    height: auto;
+    width: 100%;
+}
+
+#flowerground1,#flowerground2, #flowerpurchase{
+    background-color:  #34a095 !important;
+    -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+    -moz-background-size: cover;    /* 针对Firefox浏览器 */
+    -o-background-size: cover;      /* 针对Operallq */
+    background-size: cover;         /* 通用 */
+}
+
+#flowerground3{
+    background-color:  #408f6a !important;
+    -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+    -moz-background-size: cover;    /* 针对Firefox浏览器 */
+    -o-background-size: cover;      /* 针对Operallq */
+    background-size: cover;         /* 通用 */
+}
+.buttoncolor {
+    position: relative;
+    background-color: #4CAF50;
+    background-size: 50%;
+    border: none;
+    font-size:50%;
+    color: #FFFFFF;
+    padding: 18px;
+    width: auto;
+    height: 60%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.buttoncolor:after {
+    content: "";
+    background: #204969;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    border-radius: 5%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.buttoncolor:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.xx{color: #FFFFFF;text-align: center; font-size: 350%;}/* 将字体设为白色且居中 */
+.xxx{color: #FFFFFF;font-size: 250%;}/* 将字体设为白色 */
+.vine
+{
+    width: 40%;
+}
+.zoomImage2{
+    width:100%;
+    height:0;
+    padding-bottom: 60%;
+    overflow:hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
+
+.xximg {
+    width: 100%;
+    height: 45%;
+}
+
+.over{
+overflow: hidden;
+}
+.buttoncolor2 {
+    /* position: relative; */
+    background-color: #2bbbad;
+    background-size: 50%;
+    border: 2px solid #ff0000;
+    border-radius: 16px;
+    font-size:110%;
+    color: #ff0000;
+    padding: 18px;
+    width: auto;
+    height: 60%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}

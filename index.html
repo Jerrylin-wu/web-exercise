@@ -21,9 +21,9 @@
 <body>
   <!-- start your project here -->
   <!--Main Navigation-->
-  <header>
-    <!--Navbar 导航栏 -->
-    <nav class="navbar navbar-expand-lg navbar-dark default-color fixed-top ">
+  <header> <!--Navbar 导航栏 -->
+   
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top   scrolling-navbar">
 
       <div class="container">
 
@@ -95,6 +95,8 @@
           <li data-target="#carousel-example-2" data-slide-to="1"></li>
           <li data-target="#carousel-example-2" data-slide-to="2"></li>
           <li data-target="#carousel-example-2" data-slide-to="3"></li>
+          <li data-target="#carousel-example-2" data-slide-to="4"></li>
+          <li data-target="#carousel-example-2" data-slide-to="5"></li>
         </ol>
         <!--/.Indicators-->
         <!--Slides-->
@@ -144,6 +146,30 @@
               <h3 class="h3-responsive">黄玫瑰</h3>
               <p>送花对象：朋友<br>
                 黄玫瑰花语：纯洁的友谊和美好的祝福</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <div class="zoomImage" style="background-image:url(./img/flower/rose/champagne\ rose.jpg)"></div>
+              <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+              <h3 class="h3-responsive">香槟玫瑰</h3>
+              <p>送花对象：朋友、恋人<br>
+                香槟玫瑰花语：我只钟情你一个</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <div class="zoomImage" style="background-image:url(./img/flower/rose/purple\ rose.jpg)"></div>
+              <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+              <h3 class="h3-responsive">紫色玫瑰</h3>
+              <p>送花对象：爱人、恋人<br>
+                紫玫瑰花语：成熟的爱、你的幸福比我的重要</p>
             </div>
           </div>
         </div>
@@ -205,6 +231,7 @@
         <p class="white-text text-center">送花对象：朋友、爱人、情人<br>白百合花语：纯洁、纯白、优雅、高贵、庄严、心心相印</p>
       </span>
     </div>
+    
     <div class="col-lg-4 col-md-12 mb-4 ">
       <div class="view overlay z-depth-1-half">
         <div class="zoomImage2" style="background-image:url(./img/flower/Pink\ tulip.png)"></div>
@@ -566,7 +593,7 @@
   $('#carousel-example-2').carousel({
     interval: 2000, // 间隔时间, 默认5000毫秒, 如果设置为false则不会自动播放
     pause: false, // 鼠标移上后是否暂停, 默认暂停
-    wrap: false, // 是否循环轮播, 默认循环
+    wrap: ture, // 是否循环轮播, 默认循环
   });
 
 </script>
